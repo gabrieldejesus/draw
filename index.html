@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Desenhe! Use sua criatividade 🎨</title>
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1>Use sua criatividade 🎨</h1>
+        <div class="container">
+          <canvas id="canvas" width="1176px" height="550px"></canvas>
+          <div class="options">
+            <button id="decrease">-</button>
+            <span id="size">5</span>
+            <button id="increase">+</button>
+            Cor
+            <input type="color" id="color" value="#7168F2" />
+
+            <button id="clear">
+              <svg
+                width="15"
+                height="20"
+                viewBox="0 0 15 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M14.37 7L13.37 8.73L1.24 1.73L2.24 0L5.28 1.75L6.64 1.38L10.97 3.88L11.34 5.25L14.37 7ZM0 17.09V5.09H5.07L12 9.09V17.09C12 17.6204 11.7893 18.1291 11.4142 18.5042C11.0391 18.8793 10.5304 19.09 10 19.09H2C1.46957 19.09 0.960859 18.8793 0.585786 18.5042C0.210714 18.1291 0 17.6204 0 17.09Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
